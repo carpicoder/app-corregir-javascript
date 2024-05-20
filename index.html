@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App para corregir</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>App para corregir proyectos finales en el curso de JavaScript</h1>
+        <p>Si querés saber bien cómo funciona o aportar sugerencias para cambios, podés leer <a href="https://github.com/carpicoder/app-corregir-javascript">el README de esta app</a>.</p>
+        <div class="grid">
+            <input class="nombre" type="text" name="nombre" placeholder="Nombre del estudiante" id="nombre">
+            
+            <div>
+                <h3 data-nombre="Condicionales">❓ Condicionales</h3>
+                <input checked type="checkbox" id="condicionales">
+                <label for="condicionales">Usado ✅</label>
+                <textarea id="comentarios-condicionales" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Ciclos">🔁 Ciclos</h3>
+                <input checked type="checkbox" id="ciclos">
+                <label for="ciclos">Usado ✅</label>
+                <textarea id="comentarios-ciclos" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Funciones">♻️ Funciones</h3>
+                <input checked type="checkbox" id="funciones">
+                <label for="funciones">Usado ✅</label>
+                <textarea id="comentarios-funciones" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Objetos">🧑 Objetos</h3>
+                <input checked type="checkbox" id="objetos">
+                <label for="objetos">Usado ✅</label>
+                <textarea id="comentarios-objetos" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Arrays">👪 Arrays</h3>
+                <input checked type="checkbox" id="arrays">
+                <label for="arrays">Usado ✅</label>
+                <textarea id="comentarios-arrays" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="DOM o Eventos">🖱️ DOM + Eventos</h3>
+                <input checked type="checkbox" id="dom-eventos">
+                <label for="dom-eventos">Usado ✅</label>
+                <textarea id="comentarios-dom-eventos" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="LocalStorage o SessionStorage">🧠 Storage</h3>
+                <input checked type="checkbox" id="storage">
+                <label for="storage">Usado ✅</label>
+                <textarea id="comentarios-storage" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Operadores avanzados">⏭️ Operadores avanzados</h3>
+                <input checked type="checkbox" id="operadores-avanzados">
+                <label for="operadores-avanzados">Usado ✅</label>
+                <textarea id="comentarios-operadores-avanzados" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Librerías">📖 Librerías</h3>
+                <input checked type="checkbox" id="librerias">
+                <label for="librerias">Usado ✅</label>
+                <textarea id="comentarios-librerias" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Fetch">⌛ Fetch</h3>
+                <input checked type="checkbox" id="fetch">
+                <label for="fetch">Usado ✅</label>
+                <textarea id="comentarios-fetch" rows="3"></textarea>
+            </div>
+            
+            <div>
+                <h3 data-nombre="Comentarios generales">😉 Comentarios generales</h3>
+                <input checked type="checkbox" id="generales">
+                <label for="generales">Proyecto aprobado ✅</label>
+                <textarea id="comentarios-generales" rows="9"></textarea>
+            </div>
+            
+
+            <div id="textoGeneradoContainer">
+                <div id="texto_generado"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>App desarrollada por <a target="_blank" href="https://carpicoder.com">Carpi Coder</a></p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
