@@ -1,4 +1,4 @@
-# App para corregir proyectos finales de JavaScript en Coderhouse
+# App para corregir proyectos finales de JavaScript
 
 
 ## Propósito
@@ -25,3 +25,6 @@ Lo único que hay que hacer es reemplazar la palabra clave (en el ejemplo, "Cond
 - El texto en el `<h3>` con el ícono incluido es el que aparece en los ítems de corrección, como título principal de cada ítem.
 - El `id` del `<input>` y el `for` del `<label>` existen por el único motivo de conectar uno con el otro.
 - El `id` del `<textarea>` de momento no cumple ninguna función, pero está bueno de forma preventiva por si en el futuro agrego alguna funcionalidad que lo necesite.
+
+## Sugerencias
+Sentite libre de hacer alguna pull request o sugerencias sobre esto por alguna de mis redes sociales!
